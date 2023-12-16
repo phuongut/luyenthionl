@@ -33,13 +33,6 @@ sv.questionNumber = index + 1; // Số thứ tự bắt đầu từ 1
 /* console.log(questionNumber)*/
 
 
-
-
-
-
-
-
-
 $scope.check = function () {
 var diem = 0;
 angular.forEach($scope.users, function (sv) {
@@ -55,6 +48,10 @@ ans.isCorrect = true;
 }
 });
 });
+$scope.showExplanation = true;
+$scope.showExplanationnd = true;
+sv.isUserAnswer = sv.selectedAnswer;
+$scope.submitButtonVisible = true;
 });
 
 
@@ -62,28 +59,19 @@ var diemString = diem.toString();
 
 var tenBoDe = localStorage.getItem('selecteten');
 
-
-
-
 // Gửi điểm và các dữ liệu khác lên server Java
 $http.post('/saveTongket', {diem:diemString,tenBoDe:tenBoDe})
 .then(function(response) {
 // Xử lý kết quả nếu cần
+var generatedId = response.data;
+localStorage.setItem('tongketId', generatedId);
+console.log("id" + tongketId);
 })
 .catch(function(error) {
-// Xử lý lỗi nếu có
+    console.error('Error saving tongket:', error);
 });
-console.log('Dien'+diemString);
-console.log('tende' +tenBoDe);
 
 
-
-
-
-$scope.showExplanation = true;
-$scope.showExplanationnd = true;
-sv.isUserAnswer = sv.selectedAnswer;
-$scope.submitButtonVisible = true;
 
 
 alert("You got " + diemString + " marks");
@@ -104,9 +92,12 @@ const canvas = await html2canvas(document.getElementById('quiz-form'));
 const imageData = canvas.toDataURL();
 
 try {
-const response = await $http.post('/api/screenshots', imageData, {
-headers: { 'Content-Type': 'text/plain' }
-});
+    const tongketId = localStorage.getItem('tongketId');
+    console.log("id: "+ tongketId);
+    const response = await $http.post('/api/screenshots', { imageData: imageData, tongketId : tongketId}, {
+        headers: { 'Content-Type': 'application/json' }
+    });
+    console.log("anh: "+ imageData);
 
 const imagePath = response.data;
 if (response.status === 200) {

@@ -68,7 +68,7 @@ public class controller {
     @RequestMapping("/quiz")
     public String quiz(Model model, HttpSession session) {
         String username = (String) session.getAttribute("user");
-        
+
         if (username != null) {
             addMonHocListToModel(model);
             return "quiz";

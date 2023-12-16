@@ -20,10 +20,10 @@ public class BoDe implements Serializable {
 
 	@Id
 
-	@Column(columnDefinition = "nvarchar(255)")
+	@Column(columnDefinition = "varchar(255)")
 	String idBoDe;
 
-	@Column(columnDefinition = "nvarchar(255)")
+	@Column(columnDefinition = "varchar(255)")
 	String idDe;
 
 	public BoDe(String idDe) {

@@ -7,5 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.example.postgresdemo.model.Tongket;
 
 public interface TongKetDAO extends JpaRepository<Tongket, Integer> {
+    List<Tongket> findAllByNguoiDungIdND(Long userId);
+
     List<Tongket> findByNguoiDungIdND(String idND);
 }

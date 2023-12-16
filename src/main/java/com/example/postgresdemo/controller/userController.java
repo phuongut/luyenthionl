@@ -133,12 +133,13 @@ public class userController {
 
         // Truyền danh sách điểm vào Model để hiển thị trên trang qlDiemUser
         model.addAttribute("diemuserList", diemuserList);
-
+        addMonHocListToModel(model);
         return "qlDiemUser";
     }
 
     @PostMapping("/saveTongket")
-    public ResponseEntity<String> saveTongket(@RequestBody java.util.Map<String, String> diemMap, HttpSession session) {
+    public ResponseEntity<Integer> saveTongket(@RequestBody java.util.Map<String, String> diemMap,
+            HttpSession session) {
         String diemString = diemMap.get("diem");
 
         // Kiểm tra nếu diemString là null hoặc rỗng, thì gán giá trị mặc định
@@ -149,23 +150,20 @@ public class userController {
 
         NguoiDung nguoiDung = (NguoiDung) session.getAttribute("nguoidung");
 
-        // Kiểm tra xem người dùng đã đăng nhập hay chưa
-        if (nguoiDung == null) {
-            return ResponseEntity.badRequest().body("Người dùng chưa đăng nhập");
-        }
         // Tạo đối tượng Tongket và set giá trị điểm
         Tongket tongket = new Tongket();
         tongket.setDiem(diemString);
         tongket.setNguoiDung(nguoiDung);
         tongket.setTenDe(tenBoDe);
         tkdao.save(tongket);
+        Integer generatedId = tongket.getId();
 
         // Thực hiện lưu trữ dữ liệu vào cơ sở dữ liệu ở đây
         // Ví dụ: sử dụng Hibernate để lưu vào database
         // ...
 
         // Trả về một thông báo thành công hoặc thất bại
-        return ResponseEntity.ok("Dữ liệu đã được lưu thành công!");
+        return ResponseEntity.ok(generatedId);
     }
 
 }

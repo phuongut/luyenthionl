@@ -17,9 +17,6 @@ public class KetQua {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Lob
-	@Column(name = "image_data", columnDefinition = "VARBINARY(MAX)", nullable = true)
-	private byte[] imageData;
 	@ManyToOne
 	@JoinColumn(name = "idNguoiDung")
 	NguoiDung nguoiDung;
@@ -29,7 +26,7 @@ public class KetQua {
 
 	public KetQua(Long id, byte[] imageData) {
 		this.id = id;
-		this.imageData = imageData;
+
 	}
 
 	public Long getId() {
@@ -38,14 +35,6 @@ public class KetQua {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public byte[] getImageData() {
-		return imageData;
-	}
-
-	public void setImageData(byte[] imageData) {
-		this.imageData = imageData;
 	}
 
 }

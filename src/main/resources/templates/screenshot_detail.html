@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Thêm nội dung head của bạn ở đây -->
+</head>
+
+<body>
+    <!-- Thêm nội dung body của bạn -->
+    <h2>Chi tiết cho Ảnh Chụp Màn Hình có ID: [[${screenshot.id}]]</h2>
+
+    <!-- Hiển thị ảnh chụp màn hình hoặc thông tin liên quan theo cần thiết -->
+    <img th:src="@{'/api/screenshots/' + ${screenshot.id}}" alt="Ảnh Chụp Màn Hình" />
+
+    <!-- Các thông tin khác về ảnh chụp màn hình có thể được hiển thị tại đây -->
+</body>
+
+</html>

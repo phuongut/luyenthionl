@@ -36,7 +36,7 @@
     </nav>
     <div class="container">
         <!-- Tạo biểu mẫu ngang -->
-        <form class="container-fluid border" action="/action_page.php">
+        <form class="container-fluid border" th:object="${item}" th:action="@{/qlmon}" method="post">
             <div class="row">
                 <!-- Tiêu đề biểu mẫu -->
                 <h2 class="text-center col-sm-12 mt-2 mb-5 border bg-info text-white">Quản Lý Môn Thi</h2>
@@ -49,12 +49,11 @@
                         <div class="col-sm-10">
                             <td colspan="3">
 
-                                <select class="form-control " id="subject">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
+                                <select class="form-control" id="subject" name="subject" th:field="${item.Ban.idBan}">
+                                    <!-- Thymeleaf iteration để hiển thị danh sách môn học -->
+                                    <option th:each="subject : ${subjectList}" th:value="${subject.idBan}" th:text="${subject.tenBan}" th:selected="${item.Ban.idBan == subject.idBan}"></option>
                                 </select>
+                                <!-- <input type="hidden" class="form-control " id="Ban.idBan" name="Ban.idBan"  th:value="${item.Ban.idBan}" placeholder="Nhập id môn thi"> -->
                             </td>
                         </div>
                     </div>
@@ -63,12 +62,7 @@
                         <label for="subject" class="col-sm-2 col-form-label">ID môn học:</label>
                         <div class="col-sm-10">
                             <td colspan="4">
-                                <select class="form-control " id="subject">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                </select>
+                                <input type="text" class="form-control " id="id" name="id"  th:value="${item.id}" placeholder="Nhập id môn thi">
                             </td>
                         </div>
                     </div>
@@ -78,7 +72,7 @@
                         <label for="subject" class="col-sm-2 col-form-label">Môn thi:</label>
                         <!-- Trường nhập liệu cho Môn thi -->
                         <div class="col-sm-10">
-                            <input type="text" class="form-control " id="subject" placeholder="Nhập môn thi">
+                            <input type="text" class="form-control " id="tenMonHoc" name="tenMonHoc"  th:value="${item.tenMonHoc}" placeholder="Nhập môn thi">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -86,22 +80,30 @@
                         <label for="time" class="col-sm-2 col-form-label">Thời gian:</label>
                         <!-- Trường nhập liệu cho Thời gian -->
                         <div class="col-sm-10">
-                            <input type="text" class="form-control " id="time" placeholder="Nhập thời gian (phút)">
+                            <input type="text" class="form-control " id="thoigian" name="thoigian"  th:value="${item.thoigian}" placeholder="Nhập thời gian (phút)">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <!-- Nhãn cho trường Thời gian -->
+                        <label for="time" class="col-sm-2 col-form-label">Hình ảnh</label>
+                        <!-- Trường nhập liệu cho Thời gian -->
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control " id="hinhAnh" name="hinhAnh"  th:value="${item.hinhAnh}" placeholder="hinhanh">
                         </div>
                     </div>
                     <!-- Nhóm các nút chức năng -->
                     <div class="form-group row">
                         <!-- Nút thêm -->
                         <div class="col-sm-2">
-                            <button type="submit" class="btn btn-primary btn-block">Thêm</button>
+                            <button type="submit" class="btn btn-primary btn-block" th:formaction="@{/qlmon/createMon}">Thêm</button>
                         </div>
                         <!-- Nút xóa -->
                         <div class="col-sm-2">
-                            <button type="submit" class="btn btn-danger btn-block">Xóa</button>
+                            <button type="submit" class="btn btn-danger btn-block" th:href="@{'/qlmon/delete/'+${item.id}}">Xóa</button>
                         </div>
                         <!-- Nút sửa -->
                         <div class="col-sm-2">
-                            <button type="submit" class="btn btn-success btn-block">Sửa</button>
+                            <button type="submit" class="btn btn-success btn-block" th:formaction="@{/qlmon/update}">Sửa</button>
                         </div>
                     </div>
                 </div>
@@ -116,6 +118,7 @@
                             <th>ID ban</th>
                             <!-- Tiêu đề cột Môn học -->
                             <th>Môn học</th>
+                            <th>Hình ảnh</th>
                             <!-- Tiêu đề cột Thời gian -->
                             <th>Thời gian</th>
                             <!-- Tiêu đề cột Thêm tiết -->
@@ -124,60 +127,21 @@
                         </tr>
 
                         <!-- Hàng thứ ba có dữ liệu của môn thi thứ nhất -->
-                        <tr>
-                            <!-- Dữ liệu ID môn của môn thi thứ nhất -->
-                            <td>1</td>
-                            <!-- Dữ liệu ID ban của môn thi thứ nhất -->
-                            <td>1</td>
-                            <!-- Dữ liệu Môn học của môn thi thứ nhất -->
-                            <td>Toán</td>
-                            <!-- Dữ liệu Thời gian của môn thi thứ nhất -->
-                            <td>90</td>
-                            <!-- Nút Thêm tiết của môn thi thứ nhất -->
-                            <td><button type="submit" class="btn btn-success">Sửa</button></td>
-                            <td><button type="submit" class="btn btn-danger">Xoá</button></td>
-                        </tr>
-
-                        <!-- Hàng thứ tư có dữ liệu của môn thi thứ hai -->
-                        <tr>
-                            <!-- Dữ liệu ID môn của môn thi thứ hai -->
-                            <td>2</td>
-                            <!-- Dữ liệu ID ban của môn thi thứ hai -->
-                            <td>2</td>
-                            <!-- Dữ liệu Môn học của môn thi thứ hai -->
-                            <td>Lý</td>
-                            <!-- Dữ liệu Thời gian của môn thi thứ hai -->
-                            <td>50</td>
-                            <!-- Nút Thêm tiết của môn thi thứ hai -->
-                            <td><button type="submit" class="btn btn-success">Sửa</button></td>
-                            <td><button type="submit" class="btn btn-danger">Xoá</button></td>
-                        </tr>
-                        <tr>
-                            <!-- Dữ liệu ID môn của môn thi thứ hai -->
-                            <td>3</td>
-                            <!-- Dữ liệu ID ban của môn thi thứ hai -->
-                            <td>3</td>
-                            <!-- Dữ liệu Môn học của môn thi thứ hai -->
-                            <td>Hoá</td>
-                            <!-- Dữ liệu Thời gian của môn thi thứ hai -->
-                            <td>50</td>
-                            <!-- Nút Thêm tiết của môn thi thứ hai -->
-                            <td><button type="submit" class="btn btn-success">Sửa</button></td>
-                            <td><button type="submit" class="btn btn-danger">Xoá</button></td>
-                        </tr>
-                        <tr>
-                            <!-- Dữ liệu ID môn của môn thi thứ hai -->
-                            <td>4</td>
-                            <!-- Dữ liệu ID ban của môn thi thứ hai -->
-                            <td>4</td>
-                            <!-- Dữ liệu Môn học của môn thi thứ hai -->
-                            <td>Sinh</td>
-                            <!-- Dữ liệu Thời gian của môn thi thứ hai -->
-                            <td>50</td>
-                            <!-- Nút Thêm tiết của môn thi thứ hai -->
-                            <td><button type="submit" class="btn btn-success">Sửa</button></td>
-                            <td><button type="submit" class="btn btn-danger">Xoá</button></td>
-                        </tr>
+                        <tbody>
+                            <th:block th:each="item: ${items}">
+                                <tr>
+                                    <td>[[${item.id}]]</td>
+                                    <td>[[${item.Ban.idBan}]]</td>
+                                    <td>[[${item.tenMonHoc}]]</td>
+                                    <td>[[${item.hinhAnh}]]</td>
+                                    <td>[[${item.thoigian}]]</td>
+                                    <td><a class="btn btn-primary btn-sm" th:href="@{'/qlmon/edit/'+ ${item.id}}" >Sửa</a></td>
+                                    <td><a class="btn btn-danger btn-sm" th:href="@{'/qlmon/delete/'+${item.id}}">Xóa</a></td>
+                                </tr>
+                                <!-- th:href="@{'/admin/manage/editproduct/'+ ${item.productId}}" -->
+                            </th:block>
+                    
+                        </tbody>
                     </table>
                 </div>
         </form>

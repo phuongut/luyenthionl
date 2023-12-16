@@ -1,10 +1,12 @@
 package com.example.postgresdemo.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -15,6 +17,12 @@ public class Tongket {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     String diem;
+
+    @Lob
+    // @Column(name = "image_data", columnDefinition = "VARBINARY(MAX)", nullable =
+    // true)
+    @Column(name = "image_data", columnDefinition = "bytea", nullable = true)
+    private byte[] imageData;
 
     @ManyToOne
     @JoinColumn(name = "idNguoiDung")
@@ -31,6 +39,18 @@ public class Tongket {
     }
 
     public Tongket() {
+    }
+
+    public byte[] getImageData() {
+        return imageData;
+    }
+
+    public Tongket(byte[] imageData) {
+        this.imageData = imageData;
+    }
+
+    public void setImageData(byte[] imageData) {
+        this.imageData = imageData;
     }
 
     public int getId() {

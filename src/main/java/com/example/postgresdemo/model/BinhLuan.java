@@ -17,11 +17,11 @@ import org.springframework.stereotype.Service;
 public class BinhLuan implements Serializable {
 	@Id
 	String idBinhLuan;
-	@Column(columnDefinition = "nvarchar(255)")
+	@Column(columnDefinition = "varchar(255)")
 	String noiDung;
-	@Column(columnDefinition = "nvarchar(255)")
+	@Column(columnDefinition = "varchar(255)")
 	String anh;
-	@Column(columnDefinition = "nvarchar(255)")
+	@Column(columnDefinition = "varchar(255)")
 	String tieude;
 
 	@ManyToOne

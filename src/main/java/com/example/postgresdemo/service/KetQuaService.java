@@ -6,20 +6,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.postgresdemo.dao.KetQuaDAO;
+import com.example.postgresdemo.dao.TongKetDAO;
 import com.example.postgresdemo.model.KetQua;
+import com.example.postgresdemo.model.Tongket;
 
 @Service
 public class KetQuaService {
 
     @Autowired
-    private KetQuaDAO screenshotRepository;
+    private TongKetDAO screenshotRepository;
 
-    public KetQua getScreenshotById(Long id) {
+    public Tongket getScreenshotById(Integer id) {
         return screenshotRepository.findById(id).orElse(null);
     }
 
-    public KetQua saveScreenshot(String imageData) {
-        KetQua screenshot = new KetQua();
+    public Tongket saveScreenshot(String imageData, Integer tongketId) {
+        Tongket screenshot = new Tongket();
 
         try {
             byte[] imageDataBytes = Base64.getDecoder().decode(imageData.split(",")[1]);
@@ -30,5 +32,17 @@ public class KetQuaService {
         }
 
         return screenshotRepository.save(screenshot);
+    }
+
+    public Tongket updateScreenshot(Tongket tongket, String imageData) {
+        try {
+            byte[] imageDataBytes = Base64.getDecoder().decode(imageData.split(",")[1]);
+            tongket.setImageData(imageDataBytes);
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+            throw new RuntimeException("Invalid Base64 string");
+        }
+
+        return screenshotRepository.save(tongket);
     }
 }

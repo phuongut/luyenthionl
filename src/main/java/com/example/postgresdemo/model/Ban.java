@@ -1,10 +1,12 @@
 package com.example.postgresdemo.model;
 
 import java.io.Serializable;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.springframework.stereotype.Service;
@@ -15,8 +17,11 @@ import org.springframework.stereotype.Service;
 public class Ban implements Serializable {
     @Id
     String idBan;
-    @Column(columnDefinition = "nvarchar(255)")
+    @Column(columnDefinition = "varchar(255)")
     String tenBan;
+
+    @OneToMany(mappedBy = "Ban")
+    List<MonHoc> monhoc;
 
     public Ban() {
     }

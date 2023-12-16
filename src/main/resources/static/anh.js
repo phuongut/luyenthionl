@@ -1102,11 +1102,7 @@ var usersData = [
             { value: "c", Text: "Can you speak Japanese, please" },
             { value: "d", Text: "Can you pass the salt, please" },
         ],
-<<<<<<< HEAD
-        da: "Dịch: </br>Hồng và Mike đang ở quán ăn của trường học.</br>Hồng: “Bạn làm ơn có thể đưa tôi muối được không?”</br>Mike: “Của bạn đây”"
-=======
         nd: "Dịch: </br>Hồng và Mike đang ở quán ăn của trường học.</br>Hồng: “Bạn làm ơn có thể đưa tôi muối được không?”</br>Mike: “Của bạn đây”"
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 2:</b> Peter and Khanh are talking about learning foreign languages.</br> - Peter: “I think students should learn two foreign languages when they are at school.” </br>- Khanh: “_____. It helps them communicate with more people and broaden their minds.”",
@@ -1119,11 +1115,7 @@ var usersData = [
             { value: "c", Text: "That’s not a good idea" },
             { value: "d", Text: "I quite disagree with you" },
         ],
-<<<<<<< HEAD
-        da: "Dịch:</br>Peter và Khánh đang nói về việc học ngoại ngữ.</br>Peter: “Mình nghĩ học sinh nên học hai ngoại ngữ khi còn đi học.”</br>Khanh: “Mình hoàn toàn đồng ý với bạn. Việc đó giúp cho họ có thể giao tiếp với nhiều người hơn và mở rộng tầm nhìn của mình.”"
-=======
         nd: "Dịch:</br>Peter và Khánh đang nói về việc học ngoại ngữ.</br>Peter: “Mình nghĩ học sinh nên học hai ngoại ngữ khi còn đi học.”</br>Khanh: “Mình hoàn toàn đồng ý với bạn. Việc đó giúp cho họ có thể giao tiếp với nhiều người hơn và mở rộng tầm nhìn của mình.”"
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
@@ -1137,11 +1129,7 @@ var usersData = [
             { value: "c", Text: "sp<u>o</u>rt" },
             { value: "d", Text: "h<u>o</u>me" },
         ],
-<<<<<<< HEAD
-        da: "Giải thích:</br>A. post /poʊst/ → “o” trong “post” được phát âm là /oʊ/.</br>B.cold / koʊld / → “o” trong “cold” được phát âm là / oʊ /.</br>C.sport / spɔːrt / → “o” trong “sport” được phát âm là / ɔː /.</br>D.home / hoʊm / → “o” trong “home” được phát âm là / oʊ /. "
-=======
         nd: "Giải thích:</br>A. post /poʊst/ → “o” trong “post” được phát âm là /oʊ/.</br>B.cold / koʊld / → “o” trong “cold” được phát âm là / oʊ /.</br>C.sport / spɔːrt / → “o” trong “sport” được phát âm là / ɔː /.</br>D.home / hoʊm / → “o” trong “home” được phát âm là / oʊ /. "
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 4:</b>",
@@ -1154,11 +1142,7 @@ var usersData = [
             { value: "c", Text: "<u>ch</u>icken" },
             { value: "d", Text: "<u>ch</u>ildren" },
         ],
-<<<<<<< HEAD
-        da: "Giải thích:</br>A. chorus /ˈkɔːrəs/ -> “ch”trong “post” được phát âm là /k/.</br>B.chairman / ˈtʃeərmən / -> “ch”trong “chairman” được phát âm là / tʃ /.</br>C.chicken / ˈtʃɪkɪn / -> “ch”trong “chicken” được phát âm là / tʃ /.</br>D.children / ˈtʃɪldrən / -> “ch”trong “children” được phát âm là / tʃ /. "
-=======
         nd: "Giải thích:</br>A. chorus /ˈkɔːrəs/ -> “ch”trong “post” được phát âm là /k/.</br>B.chairman / ˈtʃeərmən / -> “ch”trong “chairman” được phát âm là / tʃ /.</br>C.chicken / ˈtʃɪkɪn / -> “ch”trong “chicken” được phát âm là / tʃ /.</br>D.children / ˈtʃɪldrən / -> “ch”trong “children” được phát âm là / tʃ /. "
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the word that differs from the other three in the position of stress in each of the following questions.",
@@ -1172,11 +1156,7 @@ var usersData = [
             { value: "c", Text: "exciting" },
             { value: "d", Text: "confident" },
         ],
-<<<<<<< HEAD
-        da: "Giải thích: “confident” có trọng âm rơi vào âm tiết 1, những từ khác là âm tiết thứ 2."
-=======
         nd: "Giải thích: “confident” có trọng âm rơi vào âm tiết 1, những từ khác là âm tiết thứ 2."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 6:</b>",
@@ -1189,11 +1169,7 @@ var usersData = [
             { value: "c", Text: "connect" },
             { value: "d", Text: "follow" },
         ],
-<<<<<<< HEAD
-        da: "Giải thích: “follow” có trọng âm rơi vào âm tiết 1, những từ khác là âm tiết thứ 2."
-=======
         nd: "Giải thích: “follow” có trọng âm rơi vào âm tiết 1, những từ khác là âm tiết thứ 2."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the word CLOSEST in meaning to the underlined word in each of the following questions.",
@@ -1207,11 +1183,7 @@ var usersData = [
             { value: "c", Text: "messy" },
             { value: "d", Text: "neat" },
         ],
-<<<<<<< HEAD
-        da: "Giải thích: “chaotic” có nghĩa là hỗn loạn, lộn xộn "
-=======
         nd: "Giải thích: “chaotic” có nghĩa là hỗn loạn, lộn xộn "
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 8:</b> My uncle dreams of having a new house, so he <b><u>plans</u></b> to save up for it",
@@ -1227,11 +1199,7 @@ var usersData = [
         }, {
             value: "d", Text: "quits"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: “plan” có nghĩa là dự định, kế hoạch."
-=======
         nd: "Giải thích: “plan” có nghĩa là dự định, kế hoạch."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the word(s) OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
@@ -1248,11 +1216,7 @@ var usersData = [
         }, {
             value: "d", Text: "neglected"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: “denied” có nghĩa là từ chối."
-=======
         nd: "Giải thích: “denied” có nghĩa là từ chối."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 10:</b> I think you should apologise to Mary. What you commented on her new hairstyle yesterday was really <b><u>below the belt</u></b>.",
@@ -1268,11 +1232,7 @@ var usersData = [
         }, {
             value: "d", Text: "cruel and kind"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: “below the belt” có nghĩa là  xúc phạm và bất công."
-=======
         nd: "Giải thích: “below the belt” có nghĩa là  xúc phạm và bất công."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
@@ -1289,11 +1249,7 @@ var usersData = [
         }, {
             value: "d", Text: "was attended"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Kiến thức cấu trúc câu bị động (Passive voice) với thì quá khứ đơn: S + was/were + PII. Chủ ngữ là danh từ số ít “conference” nên đáp án là “was attended”."
-=======
         nd: "Giải thích: Kiến thức cấu trúc câu bị động (Passive voice) với thì quá khứ đơn: S + was/were + PII. Chủ ngữ là danh từ số ít “conference” nên đáp án là “was attended”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 12:</b> The man _____ home when his car broke down.",
@@ -1309,11 +1265,7 @@ var usersData = [
         }, {
             value: "d", Text: "is driving"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Sự phối hợp thì (Sequence Of Tenses) giữa thì Quá khứ đơn và Quá khứ tiếp diễn:</br> Diễn tả hành động đang xảy ra (chia Quá khứ tiếp diễn) thì có hành động khác chen vào (chia Quá khứ đơn).</br> Trong câu, hành động đang xảy ra là hành động lái xe, được chia quá khứ tiếp diễn “S + was/were + Ving”.</br>Do chủ ngữ là danh từ số ít “man”, nên đáp án là “was driving”."
-=======
         nd: "Giải thích: Sự phối hợp thì (Sequence Of Tenses) giữa thì Quá khứ đơn và Quá khứ tiếp diễn:</br> Diễn tả hành động đang xảy ra (chia Quá khứ tiếp diễn) thì có hành động khác chen vào (chia Quá khứ đơn).</br> Trong câu, hành động đang xảy ra là hành động lái xe, được chia quá khứ tiếp diễn “S + was/were + Ving”.</br>Do chủ ngữ là danh từ số ít “man”, nên đáp án là “was driving”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 13:</b> Although the students in my class has been learning English for three months, they can _____ confidently with foreigners.",
@@ -1329,11 +1281,7 @@ var usersData = [
         }, {
             value: "d", Text: "communication"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Sau động từ khuyết thiếu (Modal verbs) “can” cần một động từ nguyên thể Vo."
-=======
         nd: "Giải thích: Sau động từ khuyết thiếu (Modal verbs) “can” cần một động từ nguyên thể Vo."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 14:</b> We have travelled to almost every tourist attraction in _____ Africa.",
@@ -1349,11 +1297,7 @@ var usersData = [
         }, {
             value: "d", Text: "a"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: “Africa” được sử dụng như một danh từ riêng để chỉ cả châu lục, không cần thiết phải sử dụng mạo từ trước nó."
-=======
         nd: "Giải thích: “Africa” được sử dụng như một danh từ riêng để chỉ cả châu lục, không cần thiết phải sử dụng mạo từ trước nó."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 15:</b> Binh is 1.80 meters tall, and Linh is 1.65 meters tall. Binh is _____ Linh.",
@@ -1369,11 +1313,7 @@ var usersData = [
         }, {
             value: "d", Text: "shorter than"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: kiến thức so sánh hơn (Comparatives) với tính từ ngắn “S + tobe + short adj-er + than O”.</br>Đồng thời trong câu đang đề cập đến chiều cao “meters tall”. Vì vậy, đáp án là C. taller than."
-=======
         nd: "Giải thích: kiến thức so sánh hơn (Comparatives) với tính từ ngắn “S + tobe + short adj-er + than O”.</br>Đồng thời trong câu đang đề cập đến chiều cao “meters tall”. Vì vậy, đáp án là C. taller than."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 16:</b> Her parents are working on the farm, _____?",
@@ -1389,11 +1329,7 @@ var usersData = [
         }, {
             value: "d", Text: "aren’t they"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: kiến thức câu hỏi đuôi (Tag question): Do chủ ngữ là danh từ số nhiều chỉ </br>người “her parents” và động từ chính là “are”. Do vậy, câu hỏi đuôi là “aren’t they”.</br>Dịch: Ba mẹ cô ấy đang làm việc trên nông trại, có phải không?"
-=======
         nd: "Giải thích: kiến thức câu hỏi đuôi (Tag question): Do chủ ngữ là danh từ số nhiều chỉ </br>người “her parents” và động từ chính là “are”. Do vậy, câu hỏi đuôi là “aren’t they”.</br>Dịch: Ba mẹ cô ấy đang làm việc trên nông trại, có phải không?"
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 17:</b> The foreign teacher was speaking so fast. Nga couldn’t _____ the main contents of his lesson.",
@@ -1409,11 +1345,7 @@ var usersData = [
         }, {
             value: "d", Text: "make up"
         },],
-<<<<<<< HEAD
-        da: " note down: ghi chú lại</br>Dịch: Giáo viên nước ngoài nói rất nhanh. Nga không thể ghi chú lại nội dung chính của bài học của thầy ấy."
-=======
         nd: " note down: ghi chú lại</br>Dịch: Giáo viên nước ngoài nói rất nhanh. Nga không thể ghi chú lại nội dung chính của bài học của thầy ấy."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 18:</b> The journalist is talking about having a new _____ published in the local newspaper next week.",
@@ -1429,11 +1361,7 @@ var usersData = [
         }, {
             value: "d", Text: "article"
         },],
-<<<<<<< HEAD
-        da: "article: bài báo</br>Dịch: Nhà báo đang nói về việc sẽ có một bài báo mới được xuất bản trên báo địa phương vào tuần sau."
-=======
         nd: "article: bài báo</br>Dịch: Nhà báo đang nói về việc sẽ có một bài báo mới được xuất bản trên báo địa phương vào tuần sau."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 19:</b> It’s not difficult _____ her to go to work because the office is near her home.",
@@ -1449,11 +1377,7 @@ var usersData = [
         }, {
             value: "d", Text: "to"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Cấu trúc : It + tobe + adj + (for sb) + to do sth (như thế nào cho ai khi làm gì). Vì vậy đáp án là “for”."
-=======
         nd: "Giải thích: Cấu trúc : It + tobe + adj + (for sb) + to do sth (như thế nào cho ai khi làm gì). Vì vậy đáp án là “for”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 20:</b> _____ a job in a small company, he turned it down and kept on applying for a more suitable one.",
@@ -1469,11 +1393,7 @@ var usersData = [
         }, {
             value: "d", Text: "To offer"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Rút gọn mệnh đề trạng ngữ trong câu bị động khi hai mệnh đề đồng chủ ngữ.</br>Động từ trong câu bị động (Be + V3/ed) ở MĐTN có thể được chuyển đổi thành dạng Being V3/ed hoặc V3/ed."
-=======
         nd: "Giải thích: Rút gọn mệnh đề trạng ngữ trong câu bị động khi hai mệnh đề đồng chủ ngữ.</br>Động từ trong câu bị động (Be + V3/ed) ở MĐTN có thể được chuyển đổi thành dạng Being V3/ed hoặc V3/ed."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 21:</b> efore you decide to purchase that car, it is crucial that you should look into it carefully. It’s unwise to buy a pig _____.",
@@ -1489,11 +1409,7 @@ var usersData = [
         }, {
             value: "d", Text: "in a poke"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: cụm “buy a pig in a poke” diễn tả hành động mua một thứ gì đó mà không chắc chắn về chất lượng."
-=======
         nd: "Giải thích: cụm “buy a pig in a poke” diễn tả hành động mua một thứ gì đó mà không chắc chắn về chất lượng."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 22:</b> Nam is trying to break the _____ of staying up too late.",
@@ -1509,11 +1425,7 @@ var usersData = [
         }, {
             value: "d", Text: "race"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: cụm “break the habit” là từ bỏ một thói quen xấu."
-=======
         nd: "Giải thích: cụm “break the habit” là từ bỏ một thói quen xấu."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 23:</b> She promised _____ to my birthday party, but she didn’t.",
@@ -1529,11 +1441,7 @@ var usersData = [
         }, {
             value: "d", Text: "to coming"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: cấu trúc “S + promise + to-V”."
-=======
         nd: "Giải thích: cấu trúc “S + promise + to-V”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 24:</b> It is uncommon for the director to _____ power to his finance manager to make financial decisions for the company.",
@@ -1549,11 +1457,7 @@ var usersData = [
         }, {
             value: "d", Text: "delegate"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: “To delegate power to somebody” có nghĩa là ủy quyền cho ai."
-=======
         nd: "Giải thích: “To delegate power to somebody” có nghĩa là ủy quyền cho ai."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 25:</b> We will inform you _____.",
@@ -1569,11 +1473,7 @@ var usersData = [
         }, {
             value: "d", Text: "as soon as we had had the interview result"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Sự phối hợp thì (Sequence Of Tenses) giữa thì Hiện tại đơn và Tương lai đơn.</br>Cấu trúc “S + will + Vo + as soon as + S + Vo/s/es”, do vậy sau as soon as, động từ chia thì hiện tại đơn."
-=======
         nd: "Giải thích: Sự phối hợp thì (Sequence Of Tenses) giữa thì Hiện tại đơn và Tương lai đơn.</br>Cấu trúc “S + will + Vo + as soon as + S + Vo/s/es”, do vậy sau as soon as, động từ chia thì hiện tại đơn."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the sentence that best combines each pair of sentences in the following questions.",
@@ -1591,11 +1491,7 @@ var usersData = [
         {
             value: "a", Text: "Barely had the boy band finished their first live performance when all the audiences at the theatre gave them a loud round of applause."
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Cấu trúc đảo ngữ “Barely + trợ động từ + S + Vo”, dùng để diễn tả một<br> hành động vừa hoàn thành thì một hành động khác xảy ra ngay sau đó."
-=======
         nd: "Giải thích: Cấu trúc đảo ngữ “Barely + trợ động từ + S + Vo”, dùng để diễn tả một<br> hành động vừa hoàn thành thì một hành động khác xảy ra ngay sau đó."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 27:</b> The gold ring was expensive. I couldn’t afford to buy it.",
@@ -1611,11 +1507,7 @@ var usersData = [
         }, {
             value: "d", Text: "If the gold ring had been more expensive, I could have afforded to buy it.nt"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: kiến thức câu điều kiện loại 3 dùng để chỉ những hành động không thể xảy ra,<br> trái ngược với thực tế trong quá khứ. Cấu trúc “If + S1 + had + PII, S2 + would/could + have + PII”."
-=======
         nd: "Giải thích: kiến thức câu điều kiện loại 3 dùng để chỉ những hành động không thể xảy ra,<br> trái ngược với thực tế trong quá khứ. Cấu trúc “If + S1 + had + PII, S2 + would/could + have + PII”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the sentence that is closest in meaning to each of the following questions.",
@@ -1632,11 +1524,7 @@ var usersData = [
         }, {
             value: "d", Text: "Mark started learning Spanish when he was seven years old."
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Cấu trúc viết lại câu với thì hiện tại hoàn thành."
-=======
         nd: "Giải thích: Cấu trúc viết lại câu với thì hiện tại hoàn thành."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 29:</b> “I helped the old lady cross the road,” said the teacher.",
@@ -1652,11 +1540,7 @@ var usersData = [
         }, {
             value: "d", Text: "The teacher said she had helped the old lady cross the road."
         },],
-<<<<<<< HEAD
-        da: "Dịch:<br>Câu hỏi: Cô giáo nói: 'Tôi đã giúp bà cụ qua đường'.</br>Đáp án D: Cô giáo nói rằng cô ấy đã giúp bà cụ qua đường."
-=======
         nd: "Dịch:<br>Câu hỏi: Cô giáo nói: 'Tôi đã giúp bà cụ qua đường'.</br>Đáp án D: Cô giáo nói rằng cô ấy đã giúp bà cụ qua đường."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 30:</b> Students are not allowed to bring food into the computer room.",
@@ -1672,11 +1556,7 @@ var usersData = [
         }, {
             value: "d", Text: "Students needn’t bring food into the computer room."
         },],
-<<<<<<< HEAD
-        da: "Giải thích: kiến thức Động từ khuyết thiếu (Modal verbs).<br>Cấu trúc “ S + tobe + not + allowed to V = S mustn’t + Vo”: ai đó bị cấm không được làm gì."
-=======
         nd: "Giải thích: kiến thức Động từ khuyết thiếu (Modal verbs).<br>Cấu trúc “ S + tobe + not + allowed to V = S mustn’t + Vo”: ai đó bị cấm không được làm gì."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Mark the letter A, B, C, or D on your answer sheet to indicate the underlined part that needs correction in each of the following questions.",
@@ -1693,11 +1573,7 @@ var usersData = [
         }, {
             value: "d", Text: "control"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: “distinctive” là đặc trưng, điển hình không đi với “from”.<br> Cách dùng đúng “distinct from”. Với cụm “comparative group” đang dùng sai thuật ngữ, cách dùng đúng là “comparision group”."
-=======
         nd: "Giải thích: “distinctive” là đặc trưng, điển hình không đi với “from”.<br> Cách dùng đúng “distinct from”. Với cụm “comparative group” đang dùng sai thuật ngữ, cách dùng đúng là “comparision group”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 32:</b> The man <u>bought</u> the old painting <u>and</u> then resold <u>them</u> to a collector <u>at</u> a higher price.",
@@ -1713,11 +1589,7 @@ var usersData = [
         }, {
             value: "d", Text: "at"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: them ở đây đang chỉ “the old painting” tuy nhiên danh từ này là danh từ số ít vì vậy, từ thay thế phải là “it”."
-=======
         nd: "Giải thích: them ở đây đang chỉ “the old painting” tuy nhiên danh từ này là danh từ số ít vì vậy, từ thay thế phải là “it”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 33:</b> They <u>give</u> a good presentation <u>on</u> how to <u>adopt</u> a <u>green</u> lifestyle last week.",
@@ -1733,11 +1605,7 @@ var usersData = [
         }, {
             value: "d", Text: "green"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: câu đang diễn tả hành động đã xảy ra trong quá khứ (dấu hiệu nhận biết “last week”),<br>vì vậy động từ cần chia ở thì Quá khứ đơn thành “gave”."
-=======
         nd: "Giải thích: câu đang diễn tả hành động đã xảy ra trong quá khứ (dấu hiệu nhận biết “last week”),<br>vì vậy động từ cần chia ở thì Quá khứ đơn thành “gave”."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         note: "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct word or phrase that best fits each of the numbered blanks from 26 to 30.",
@@ -1755,11 +1623,7 @@ var usersData = [
         }, {
             value: "d", Text: "where"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: kiến thức mệnh đề quan hệ (Relative clause).</br>Vị trí ô trống cần một đại từ quan hệ cho danh từ chỉ sự vật/ sự việc “their work experience"
-=======
         nd: "Giải thích: kiến thức mệnh đề quan hệ (Relative clause).</br>Vị trí ô trống cần một đại từ quan hệ cho danh từ chỉ sự vật/ sự việc “their work experience"
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 35:</b> ",
@@ -1775,11 +1639,7 @@ var usersData = [
         }, {
             value: "d", Text: "one"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: many + danh từ số nhiều (posibilities)."
-=======
         nd: "Giải thích: many + danh từ số nhiều (posibilities)."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 36:</b> ",
@@ -1795,11 +1655,7 @@ var usersData = [
         }, {
             value: "d", Text: "make"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: collocation “ make a choice/ make choices”: lựa chọn."
-=======
         nd: "Giải thích: collocation “ make a choice/ make choices”: lựa chọn."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 37:</b> ",
@@ -1815,11 +1671,7 @@ var usersData = [
         }, {
             value: "d", Text: "either"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: but + S + V, mang nghĩa là nhưng."
-=======
         nd: "Giải thích: but + S + V, mang nghĩa là nhưng."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 38:</b> ",
@@ -1835,11 +1687,7 @@ var usersData = [
         }, {
             value: "d", Text: "understanding"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: demanding (adj): đòi hỏi, khắt khe."
-=======
         nd: "Giải thích: demanding (adj): đòi hỏi, khắt khe."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     }, {
         note: "Read the following passage and mark the letter A, B, c, or D on your answer sheet to indicate the correct answer to each of the questions from 39 to 43.",
         para: "<div>Device-centred communication has become almost universal over the past twenty years. More than three quarters of people in the world now own a mobile device, and more than half communicate via social networking.</div> <div>It is now hard to imagine a world without mobile devices consisting of such things as mobile phones, laptops and tablets. They allow us to stay in touch with a large network of friends, no matter where they are. But many experts say that communicating with a device is nothing like talking with someone in person. “Body language, eye contact and tone of voice can tell us so much,” psychologist Mary Peters says. “And none of those exist on a device. Even video chat removes many subtle clues.”</div> <div>We don’t know to what extent these technologies will permanently change the way people interact. People will always want to meet up with others in small and large groups. Indeed, it is fair to say that social media makes it easier than ever before for people to organise social events. However, there is still a danger that device-centred communication may have a negative long-term impact on the way people interact with each other on a day-to-day basis.</div> <div>We must not, therefore, lose sight of the need to focus on the actual people around us, and remember that they deserve our real - not virtual - attention. The idea of a culture where people always have a screen between them sounds a bit funny, because deep understanding comes when we see the reactions on other people’s faces.</div>",
@@ -1856,11 +1704,7 @@ var usersData = [
         }, {
             value: "d", Text: "the misunderstanding of device-centred communication"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Đoạn văn trình bày về tác động của giao tiếp tập trung vào thiết bị.<br> Nó cho biết rằng việc sử dụng các thiết bị di động và mạng xã hội đã trở nên phổ biến</br>và phát triển trong suốt hai mươi năm qua. Nhiều người sở hữu điện thoại di động</br>và giao tiếp thông qua mạng xã hội. Tuy nhiên, đoạn văn cũng nhấn mạnh rằng</br>giao tiếp qua thiết bị không thể thay thế giao tiếp trực tiếp với người khác. Việc sử</br>dụng thiết bị có thể ảnh hưởng tiêu cực đến cách mọi người tương tác hàng ngày.</br>Do đó, đáp án B. tác động của giao tiếp tập trung vào thiết bị là phù hợp với nội</br> dung chính của đoạn văn."
-=======
         nd: "Giải thích: Đoạn văn trình bày về tác động của giao tiếp tập trung vào thiết bị.<br> Nó cho biết rằng việc sử dụng các thiết bị di động và mạng xã hội đã trở nên phổ biến</br>và phát triển trong suốt hai mươi năm qua. Nhiều người sở hữu điện thoại di động</br>và giao tiếp thông qua mạng xã hội. Tuy nhiên, đoạn văn cũng nhấn mạnh rằng</br>giao tiếp qua thiết bị không thể thay thế giao tiếp trực tiếp với người khác. Việc sử</br>dụng thiết bị có thể ảnh hưởng tiêu cực đến cách mọi người tương tác hàng ngày.</br>Do đó, đáp án B. tác động của giao tiếp tập trung vào thiết bị là phù hợp với nội</br> dung chính của đoạn văn."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 40:</b> The word They in paragraph 2 refers to _____.",
@@ -1876,11 +1720,7 @@ var usersData = [
         }, {
             value: "d", Text: "laptops"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Từ “They” trong đoạn văn 2 ám chỉ đến “mobile devices”. Điều này bởi vì<br>câu trước đó đã đề cập đến “mobile phones, laptops, and tablets” như là các ví dụ</br>về các thiết bị di động."
-=======
         nd: "Giải thích: Từ “They” trong đoạn văn 2 ám chỉ đến “mobile devices”. Điều này bởi vì<br>câu trước đó đã đề cập đến “mobile phones, laptops, and tablets” như là các ví dụ</br>về các thiết bị di động."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 41:</b> In paragraph 2, in her statement about the advantages of communicating in person, Mary Peters mentioned all of the following EXCEPT _____.",
@@ -1896,11 +1736,7 @@ var usersData = [
         }, {
             value: "d", Text: "tone of voice"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Trong đoạn văn 2, Mary Peters đã đề cập đến tất cả các lợi ích sau đây</br> của việc giao tiếp trực tiếp: ngôn ngữ cơ thể, ánh mắt và giọng nói. Tùy chọn không</br>được đề cập đến đó là C. bắt tay."
-=======
         nd: "Giải thích: Trong đoạn văn 2, Mary Peters đã đề cập đến tất cả các lợi ích sau đây</br> của việc giao tiếp trực tiếp: ngôn ngữ cơ thể, ánh mắt và giọng nói. Tùy chọn không</br>được đề cập đến đó là C. bắt tay."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 42:</b> The word meet up in paragraph 3 is closest in meaning to _____.",
@@ -1916,11 +1752,7 @@ var usersData = [
         }, {
             value: "d", Text: "come away"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Từ “meet up” trong đoạn văn 3 có ý nghĩa gần nhất là “get together”.</br> Điều này có nghĩa là tập hợp hoặc tụ tập tại một nơi."
-=======
         nd: "Giải thích: Từ “meet up” trong đoạn văn 3 có ý nghĩa gần nhất là “get together”.</br> Điều này có nghĩa là tập hợp hoặc tụ tập tại một nơi."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 43:</b> According to paragraph 4, deep understanding appears when _____.",
@@ -1936,11 +1768,7 @@ var usersData = [
         }, {
             value: "d", Text: "we see the reactions on the faces of other people"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Theo đoạn văn 4, sự hiểu biết sâu sắc xuất hiện khi 'chúng ta nhìn thấy</br>những phản ứng trên khuôn mặt của người khác.'"
-=======
         nd: "Giải thích: Theo đoạn văn 4, sự hiểu biết sâu sắc xuất hiện khi 'chúng ta nhìn thấy</br>những phản ứng trên khuôn mặt của người khác.'"
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     }, {
         note: "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the questions from 44 to 50.",
         para: "<div>A recent survey into how teenagers in a Southeast Asian country spend their free time has come up with what some people regard as a surprising finding: many of those surveyed reported that they would rather stay at home and do things indoors than go out and experience real-life adventures. One in four teenagers surveyed believed that online experiences were as fulfilling as real life, and more than half were actually afraid of trying new experiences. When asked about their most memorable experience over the previous ten months, nearly 30% of boys said ‘playing a new video game’, while 10% of all teenagers said it was watching a new TV series. On asking for more detailed information, researchers found that 20% of boys and 22% of girls said they had never had a real-life adventure.</div> <div>It would be easy to blame technological advances for these findings. After all, today’s teenagers have many more indoor activities to choose from than did their parents. About half a century ago, children were expected to spend more of their free time outside. But researchers do not put the blame wholly on technology.</div> <div>To members of older generations, these findings are worrying, because it means that young people increasingly rely on virtual reality and are consequently missing out on real outdoor activities such as mountain climbing, kayaking, etc., which have always been regarded as both enjoyable and characterbuilding. The surveyed adults said they thought today’s youth were more protected than they had been when they were growing up. Giving examples of this protection, more than half said they would not let their teenage children hitchhike or go on holiday without an adult. Seven in ten said they would not even allow teenagers to get into a taxi on their own. It is not clear whether adults believe the world is more dangerous than it used to be or whether they do not trust today’s youngsters to look after themselves.</div>",
@@ -1957,11 +1785,7 @@ var usersData = [
         }, {
             value: "d", Text: "Fears and tensions encountered by teenagers and adults’ concerns"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Ý chính của đoạn văn là B. Sở thích hoạt động giải trí trong thời gian rảnh</br>của thanh thiếu niên và những lo ngại của người lớn."
-=======
         nd: "Giải thích: Ý chính của đoạn văn là B. Sở thích hoạt động giải trí trong thời gian rảnh</br>của thanh thiếu niên và những lo ngại của người lớn."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 45:</b> The word <b><u>fulfilling</u></b> in paragraph 1 is closest in meaning to _____.",
@@ -1977,11 +1801,7 @@ var usersData = [
         }, {
             value: "d", Text: "discouraging"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Từ “fulfilling” trong đoạn 1 có nghĩa gần nhất là B. satisfying."
-=======
         nd: "Giải thích: Từ “fulfilling” trong đoạn 1 có nghĩa gần nhất là B. satisfying."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 46:</b> The word <b><u>advances</u></b> in paragraph 2 is closest in meaning to _____.",
@@ -1997,11 +1817,7 @@ var usersData = [
         }, {
             value: "d", Text: "developments"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Từ 'advances' trong đoạn 2 có nghĩa gần nhất là D."
-=======
         nd: "Giải thích: Từ 'advances' trong đoạn 2 có nghĩa gần nhất là D."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 47:</b> The word <b><u>they</u></b> in paragraph 3 refers to _____.",
@@ -2017,11 +1833,7 @@ var usersData = [
         }, {
             value: "d", Text: "surveyed adults"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Từ 'they' trong đoạn 3 chỉ đến B. thanh thiếu niên."
-=======
         nd: "Giải thích: Từ 'they' trong đoạn 3 chỉ đến B. thanh thiếu niên."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 48:</b> According to paragraph 3, the older generations are worried about _____.",
@@ -2037,11 +1849,7 @@ var usersData = [
         }, {
             value: "d", Text: "the young’s lack of indoor activities"
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Theo đoạn 3, những thế hệ lớn tuổi lo lắng về B."
-=======
         nd: "Giải thích: Theo đoạn 3, những thế hệ lớn tuổi lo lắng về B."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 49:</b> Which of the following is NOT TRUE according to the passage?",
@@ -2057,11 +1865,7 @@ var usersData = [
         }, {
             value: "d", Text: "Researchers do not put all the blame on technology for causing teenagers’ lack of real-life experiences."
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Tuyên bố không đúng theo đoạn văn là C."
-=======
         nd: "Giải thích: Tuyên bố không đúng theo đoạn văn là C."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     {
         ten: "<b>Question 50:</b> Which of the following can be inferred from the passage?",
@@ -2077,11 +1881,7 @@ var usersData = [
         }, {
             value: "d", Text: "The majority of teenagers surveyed believed virtual reality was as interesting as the real life."
         },],
-<<<<<<< HEAD
-        da: "Giải thích: Từ đoạn văn, có thể suy ra rằng B."
-=======
         nd: "Giải thích: Từ đoạn văn, có thể suy ra rằng B."
->>>>>>> 607c2686262ffd24ca57f232767c020fceb2d051
     },
     //
     {
