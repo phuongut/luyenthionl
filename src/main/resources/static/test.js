@@ -95,7 +95,7 @@
                 const tongketId = window.localStorage.getItem('tongketId') || '';
                 console.log("id: " + tongketId);
 
-                const response = await $http.post('/api/screenshots', { imageData, tongketId }, {
+                const response = await $http.post('api/screenshots', { imageData, tongketId }, {
                     headers: { 'Content-Type': 'application/json' }
                 });
 
