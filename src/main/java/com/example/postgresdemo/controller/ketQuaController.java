@@ -4,8 +4,6 @@ import java.util.Base64;
 import java.util.Map;
 import java.util.Optional;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpHeaders;
@@ -35,7 +33,7 @@ public class ketQuaController {
     @Autowired
     TongKetDAO tkdao;
 
-    @PostMapping()
+    @PostMapping("/")
     public ResponseEntity<String> updateScreenshot(
             @RequestBody Map<String, Object> screenshotData) {
         try {

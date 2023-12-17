@@ -92,13 +92,11 @@
             const imageData = canvas.toDataURL();
 
             try {
-                const tongketId = window.localStorage.getItem('tongketId') || '';
+                const tongketId = localStorage.getItem('tongketId');
                 console.log("id: " + tongketId);
-
-                const response = await $http.post('/api/screenshots', { imageData, tongketId }, {
+                const response = await $http.post('/api/screenshots/', { imageData: imageData, tongketId: tongketId }, {
                     headers: { 'Content-Type': 'application/json' }
                 });
-
                 console.log("anh: " + imageData);
 
                 const imagePath = response.data;
@@ -115,7 +113,6 @@
         function displayLink(imagePath) {
             $scope.imagePath = imagePath;
         }
-
 
 
 
