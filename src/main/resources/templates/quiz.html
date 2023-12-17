@@ -123,70 +123,70 @@
 				</div>
 			</div>
 		</div>
-		</div>
-		
+	</div>
 
 
-		<!-- Footer Start -->
-		<div th:replace="footer.html"></div>
-		<!-- Footer End -->
+
+	<!-- Footer Start -->
+	<div th:replace="footer.html"></div>
+	<!-- Footer End -->
 
 
-		<!-- Back to Top -->
-		<a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+	<!-- Back to Top -->
+	<a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-		<!-- JavaScript Libraries -->
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+	<!-- JavaScript Libraries -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
-		<!-- Contact Javascript File -->
-		<script src="selectedSubject"></script>
-		<script src="test.js"></script>
+	<!-- Contact Javascript File -->
+	<script src="selectedSubject"></script>
+	<script src="test.js"></script>
 
-		<script>
-			// Lấy thời gian ban đầu từ localStorage
-			var selectedThoiGian = localStorage.getItem('selectthoigian');
-			var selectten = localStorage.getItem('selecteten');
-			var ten1 = selectten;
-			document.getElementById("ten").innerHTML = ten1;
-
-
-			// Sử dụng giá trị thời gian để hiển thị trong trang quiz
-			var timeq = selectedThoiGian;
-
-			// Hiển thị thời gian ban đầu
-			document.getElementById("timeLeft").innerHTML = timeq;
-
-			// Chuyển đổi thời gian thành phút và giây
-			var minutes = parseInt(timeq.split(':')[0]);
-			var seconds = parseInt(timeq.split(':')[1]);
-
-			// Cập nhật thời gian mỗi giây
-			var countdown = setInterval(function () {
-				// Hiển thị thời gian
-				document.getElementById("timeLeft").innerHTML = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
-
-				// Giảm thời gian còn lại
-				if (seconds > 0) {
-					seconds--;
-				} else if (minutes > 0) {
-					minutes--;
-					seconds = 59;
-				}
-
-				// Kiểm tra nếu thời gian hết
-				if (minutes === 0 && seconds === 0) {
-					clearInterval(countdown);
-					document.getElementById("timeLeft").innerHTML = "Hết giờ";
-					// Thực hiện các hành động khi hết giờ (nếu cần)
-				}
-			}, 1000); // Cập nhật mỗi 1000 milliseconds (1 giây)
+	<script>
+		// Lấy thời gian ban đầu từ localStorage
+		var selectedThoiGian = localStorage.getItem('selectthoigian');
+		var selectten = localStorage.getItem('selecteten');
+		var ten1 = selectten;
+		document.getElementById("ten").innerHTML = ten1;
 
 
-		</script>
+		// Sử dụng giá trị thời gian để hiển thị trong trang quiz
+		var timeq = selectedThoiGian;
 
-		<!-- Template Javascript -->
+		// Hiển thị thời gian ban đầu
+		document.getElementById("timeLeft").innerHTML = timeq;
+
+		// Chuyển đổi thời gian thành phút và giây
+		var minutes = parseInt(timeq.split(':')[0]);
+		var seconds = parseInt(timeq.split(':')[1]);
+
+		// Cập nhật thời gian mỗi giây
+		var countdown = setInterval(function () {
+			// Hiển thị thời gian
+			document.getElementById("timeLeft").innerHTML = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+
+			// Giảm thời gian còn lại
+			if (seconds > 0) {
+				seconds--;
+			} else if (minutes > 0) {
+				minutes--;
+				seconds = 59;
+			}
+
+			// Kiểm tra nếu thời gian hết
+			if (minutes === 0 && seconds === 0) {
+				clearInterval(countdown);
+				document.getElementById("timeLeft").innerHTML = "Hết giờ";
+				// Thực hiện các hành động khi hết giờ (nếu cần)
+			}
+		}, 1000); // Cập nhật mỗi 1000 milliseconds (1 giây)
+
+
+	</script>
+
+	<!-- Template Javascript -->
 
 
 
