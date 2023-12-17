@@ -10,6 +10,8 @@ import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Type;
+
 @Entity
 @Table(name = "Tongket")
 public class Tongket {
@@ -18,10 +20,14 @@ public class Tongket {
     int id;
     String diem;
 
-    @Lob
     // @Column(name = "image_data", columnDefinition = "VARBINARY(MAX)", nullable =
     // true)
-    @Column(name = "image_data", columnDefinition = "bytea", nullable = true)
+    // @Lob
+    // @Column(name = "image_data", nullable = true)
+    // private byte[] imageData;
+
+    @Lob
+    @Type(type = "org.hibernate.type.ImageType")
     private byte[] imageData;
 
     @ManyToOne
