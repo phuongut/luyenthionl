@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 import javax.servlet.http.HttpSession;
+import javax.transaction.Transactional;
 
 import org.hibernate.mapping.Map;
 import org.slf4j.Logger;

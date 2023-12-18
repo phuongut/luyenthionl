@@ -47,7 +47,15 @@ public class Tongket {
     public Tongket() {
     }
 
+    public byte[] getImageData() {
+        return imageData;
+    }
+
     public Tongket(byte[] imageData) {
+        this.imageData = imageData;
+    }
+
+    public void setImageData(byte[] imageData) {
         this.imageData = imageData;
     }
 
@@ -82,14 +90,6 @@ public class Tongket {
 
     public Tongket(String tenDe) {
         this.tenDe = tenDe;
-    }
-
-    public byte[] getImageData() {
-        return imageData;
-    }
-
-    public void setImageData(byte[] imageData) {
-        this.imageData = imageData;
     }
 
 }

@@ -1,8 +1,9 @@
 package com.example.postgresdemo.controller;
 
-import java.util.Base64;
 import java.util.Map;
 import java.util.Optional;
+
+import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
@@ -11,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.example.postgresdemo.dao.TongKetDAO;
-import com.example.postgresdemo.model.KetQua;
 import com.example.postgresdemo.model.Tongket;
 import com.example.postgresdemo.service.KetQuaService;
 
@@ -33,7 +32,8 @@ public class ketQuaController {
     @Autowired
     TongKetDAO tkdao;
 
-    @PostMapping("/")
+    @Transactional
+    @PostMapping()
     public ResponseEntity<String> updateScreenshot(
             @RequestBody Map<String, Object> screenshotData) {
         try {

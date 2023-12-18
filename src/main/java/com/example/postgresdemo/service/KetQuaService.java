@@ -5,9 +5,7 @@ import java.util.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.postgresdemo.dao.KetQuaDAO;
 import com.example.postgresdemo.dao.TongKetDAO;
-import com.example.postgresdemo.model.KetQua;
 import com.example.postgresdemo.model.Tongket;
 
 @Service
