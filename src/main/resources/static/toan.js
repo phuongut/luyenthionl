@@ -8,7 +8,7 @@ var usersData = [
 		Answers: [{
 			value: "a",
 			//	Text : "y = x<sup>3</sup> - 3x +1",
-			question1: "../img/testly.PNG",
+			question1: "../img/testly.png",
 		}, {
 			value: "b",
 			Text: "y = -x<sup>3</sup> + 3x +1"
@@ -31,7 +31,7 @@ var usersData = [
 		Answers: [{
 			value: "a",
 			//Text : "a<0, b>0, c<0",
-			question1: "../img/test.png",
+			question1: "../img/test.PNG",
 		}, {
 			value: "b",
 			Text: "a>0, b>0, c>0"
