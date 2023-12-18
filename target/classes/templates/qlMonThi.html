@@ -10,30 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Quản lý ADMIN</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- <form class="form-inline my-2 my-lg-0 ml-auto">
-            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
-          </form> -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Admin <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-link">|</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/dangxuat">Đăng xuất</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
+    <div th:replace="navAd.html"></div>
     <div class="container">
         <!-- Tạo biểu mẫu ngang -->
         <form class="container-fluid border" th:object="${item}" th:action="@{/qlmon}" method="post">
@@ -51,7 +28,9 @@
 
                                 <select class="form-control" id="subject" name="subject" th:field="${item.Ban.idBan}">
                                     <!-- Thymeleaf iteration để hiển thị danh sách môn học -->
-                                    <option th:each="subject : ${subjectList}" th:value="${subject.idBan}" th:text="${subject.tenBan}" th:selected="${item.Ban.idBan == subject.idBan}"></option>
+                                    <option th:each="subject : ${subjectList}" th:value="${subject.idBan}"
+                                        th:text="${subject.tenBan}" th:selected="${item.Ban.idBan == subject.idBan}">
+                                    </option>
                                 </select>
                                 <!-- <input type="hidden" class="form-control " id="Ban.idBan" name="Ban.idBan"  th:value="${item.Ban.idBan}" placeholder="Nhập id môn thi"> -->
                             </td>
@@ -62,7 +41,8 @@
                         <label for="subject" class="col-sm-2 col-form-label">ID môn học:</label>
                         <div class="col-sm-10">
                             <td colspan="4">
-                                <input type="text" class="form-control " id="id" name="id"  th:value="${item.id}" placeholder="Nhập id môn thi">
+                                <input type="text" class="form-control " id="id" name="id" th:value="${item.id}"
+                                    placeholder="Nhập id môn thi">
                             </td>
                         </div>
                     </div>
@@ -72,7 +52,8 @@
                         <label for="subject" class="col-sm-2 col-form-label">Môn thi:</label>
                         <!-- Trường nhập liệu cho Môn thi -->
                         <div class="col-sm-10">
-                            <input type="text" class="form-control " id="tenMonHoc" name="tenMonHoc"  th:value="${item.tenMonHoc}" placeholder="Nhập môn thi">
+                            <input type="text" class="form-control " id="tenMonHoc" name="tenMonHoc"
+                                th:value="${item.tenMonHoc}" placeholder="Nhập môn thi">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -80,7 +61,8 @@
                         <label for="time" class="col-sm-2 col-form-label">Thời gian:</label>
                         <!-- Trường nhập liệu cho Thời gian -->
                         <div class="col-sm-10">
-                            <input type="text" class="form-control " id="thoigian" name="thoigian"  th:value="${item.thoigian}" placeholder="Nhập thời gian (phút)">
+                            <input type="text" class="form-control " id="thoigian" name="thoigian"
+                                th:value="${item.thoigian}" placeholder="Nhập thời gian (phút)">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -88,22 +70,26 @@
                         <label for="time" class="col-sm-2 col-form-label">Hình ảnh</label>
                         <!-- Trường nhập liệu cho Thời gian -->
                         <div class="col-sm-10">
-                            <input type="text" class="form-control " id="hinhAnh" name="hinhAnh"  th:value="${item.hinhAnh}" placeholder="hinhanh">
+                            <input type="text" class="form-control " id="hinhAnh" name="hinhAnh"
+                                th:value="${item.hinhAnh}" placeholder="hinhanh">
                         </div>
                     </div>
                     <!-- Nhóm các nút chức năng -->
                     <div class="form-group row">
                         <!-- Nút thêm -->
                         <div class="col-sm-2">
-                            <button type="submit" class="btn btn-primary btn-block" th:formaction="@{/qlmon/createMon}">Thêm</button>
+                            <button type="submit" class="btn btn-primary btn-block"
+                                th:formaction="@{/qlmon/createMon}">Thêm</button>
                         </div>
                         <!-- Nút xóa -->
                         <div class="col-sm-2">
-                            <button type="submit" class="btn btn-danger btn-block" th:href="@{'/qlmon/delete/'+${item.id}}">Xóa</button>
+                            <button type="submit" class="btn btn-danger btn-block"
+                                th:href="@{'/qlmon/delete/'+${item.id}}">Xóa</button>
                         </div>
                         <!-- Nút sửa -->
                         <div class="col-sm-2">
-                            <button type="submit" class="btn btn-success btn-block" th:formaction="@{/qlmon/update}">Sửa</button>
+                            <button type="submit" class="btn btn-success btn-block"
+                                th:formaction="@{/qlmon/update}">Sửa</button>
                         </div>
                     </div>
                 </div>
@@ -135,12 +121,14 @@
                                     <td>[[${item.tenMonHoc}]]</td>
                                     <td>[[${item.hinhAnh}]]</td>
                                     <td>[[${item.thoigian}]]</td>
-                                    <td><a class="btn btn-primary btn-sm" th:href="@{'/qlmon/edit/'+ ${item.id}}" >Sửa</a></td>
-                                    <td><a class="btn btn-danger btn-sm" th:href="@{'/qlmon/delete/'+${item.id}}">Xóa</a></td>
+                                    <td><a class="btn btn-primary btn-sm"
+                                            th:href="@{'/qlmon/edit/'+ ${item.id}}">Sửa</a></td>
+                                    <td><a class="btn btn-danger btn-sm"
+                                            th:href="@{'/qlmon/delete/'+${item.id}}">Xóa</a></td>
                                 </tr>
                                 <!-- th:href="@{'/admin/manage/editproduct/'+ ${item.productId}}" -->
                             </th:block>
-                    
+
                         </tbody>
                     </table>
                 </div>
